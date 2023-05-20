@@ -1,18 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/www/dev
-    - /usr/local/cpanel/3rdparty/bin/npm:
-        version: 16
-        args:
-          - ci
-          - --prefix
-          - project/frontend
-          - --silent
-    - /usr/local/cpanel/3rdparty/bin/ng:
-        version: 16
-        args:
-          - build
-          - --prod
-          - --output-path
-          - $DEPLOYPATH
+    - export DEPLOYPATH=~/public_html/dev
+    - mv project/frontend/dist/* $DEPLOYPATH
