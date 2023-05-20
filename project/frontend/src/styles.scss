@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #a1b54c
+}
+
+.container {
+  color: #000000
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.orange{
+  background-color: #daa520;
+}
+
+.green{
+  background-color: #a1b54c;
+}
+
+
+$section-orange: #daa520;
+$section-green: #a1b54c;
