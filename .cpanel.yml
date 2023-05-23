@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=~/public_html/dev
     - cp project/frontend/dist/* $DEPLOYPATH
+    
