@@ -11,6 +11,7 @@ import {AusstellungenComponent} from "./ausstellungen/ausstellungen.component";
 import {SeminareComponent} from "./components/seminare/seminare.component";
 import {KontaktComponent} from "./components/kontakt/kontakt.component";
 import {ImpressumComponent} from "./components/impressum/impressum.component";
+import {TribellaComponent} from "./components/instrumente/details/tribella/tribella.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -24,9 +25,10 @@ const routes: Routes = [
   {path: 'seminare', component: SeminareComponent},
   {path: 'kontakt', component: KontaktComponent},
   {path: 'impressum', component: ImpressumComponent},
+  {path: 'instrumente/details/tribella', component: TribellaComponent},
 
+  {path:'**',pathMatch: 'full', redirectTo: 'home'}
 
-  {path: '**', redirectTo: 'home', pathMatch: 'full'},
 ];
 
 @NgModule({

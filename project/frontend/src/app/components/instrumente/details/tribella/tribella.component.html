@@ -1,0 +1,77 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h2 white text-center">Harfe Tribella</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h3">Die neue Harfe Tribella ist fertig: angelehnt an die italienische Tripel. <br> <br> Der Klang ist
+          überaus bezaubernd und suave!</p>
+
+        <p class="h4">
+          <br><br>
+          Links : GG – e´´´
+          <br><br>
+          Mitte : C – d´´´
+          <br><br>
+          Rechts : F – e´´´
+        </p>
+
+        <!-- app.component.html -->
+        <div class="row">
+          <div class="col-6 col-md-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7785.jpg')">
+            <img class="img-fluid py-1 h-75" src="assets/Harfen/Tribella/GHG_7785.jpg" alt="">
+          </div>
+          <div class="col-6 col-md-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7787.jpg')">
+            <img class="img-fluid py-1 h-75" src="assets/Harfen/Tribella/GHG_7787.jpg" alt="">
+          </div>
+          <div class="col-6 col-md-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <img class="img-fluid py-1 h-75" src="assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg" alt="">
+          </div>
+          <!-- Add more images here if needed -->
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">163 cm</p>
+
+          <p class="h4">Breite</p>
+          <p class="h5">66 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">9.4 kg</p>
+
+          <p class="h4">Frequenz</p>
+          <p class="h5">440 Hz auch von 415 - 465 Hz möglich</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">Die Oberfläche ist in glänzendem Schelllack (handpoliert) und auch mit mattiertem Wachs möglich.</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Die Ausführung ist in Ahorn, Nussbaum möglich. Der Korpus ist in Rundform im gedämpftem
+            Massivholz.</p>
+
+          <p class="h4">Datum</p>
+          <p class="h5">Januar 28, 2022</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -4,7 +4,7 @@
                [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
                [mode]="(isHandset$ | async) ? 'over' : 'side'"
                [opened]="(isHandset$ | async) === false">
-    <img class="mx-5 my-5 w-sm-0" src="assets/Logo1.png" alt="" srcset="">
+    <img class=" mx-5 my-5 img-fluid" src="assets/Logo1.png" alt="" srcset="">
 
     <mat-list class="mx-5 h5">
       <p class="my-3 navitems" routerLink="home">Home</p>
@@ -23,11 +23,11 @@
 
   <mat-sidenav-content>
     <button class="sticky-md-top"
-      type="button"
-      aria-label="Toggle sidenav"
-      mat-icon-button
-      (click)="drawer.toggle()"
-      *ngIf="isHandset$ | async">
+            type="button"
+            aria-label="Toggle sidenav"
+            mat-icon-button
+            (click)="drawer.toggle()"
+            *ngIf="isHandset$ | async">
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
     <router-outlet></router-outlet>

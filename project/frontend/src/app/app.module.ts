@@ -21,6 +21,9 @@ import { AusstellungenComponent } from './ausstellungen/ausstellungen.component'
 import { SeminareComponent } from './components/seminare/seminare.component';
 import { KontaktComponent } from './components/kontakt/kontakt.component';
 import { ImpressumComponent } from './components/impressum/impressum.component';
+import { TribellaComponent } from './components/instrumente/details/tribella/tribella.component';
+import { LightboxComponent } from './lightbox/lightbox.component';
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { ImpressumComponent } from './components/impressum/impressum.component';
     AusstellungenComponent,
     SeminareComponent,
     KontaktComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    TribellaComponent,
+    LightboxComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -47,6 +53,7 @@ import { ImpressumComponent } from './components/impressum/impressum.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatDialogModule
 
   ],
   providers: [],
