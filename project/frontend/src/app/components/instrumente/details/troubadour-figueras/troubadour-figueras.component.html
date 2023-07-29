@@ -1,0 +1,82 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h2 white text-center">Harfe Troubadour Figueras</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h3">Diese einfache formschöne Harfe ist eine Rekonstruktion von einer Ikonografie vom Jahre 1224 (König David Spanien).  Mit einem schönen, klaren und weichen Klang erfreut sie den Spielenden.</p>
+
+        <br> <p class="h3">Übergabe der Harfe Troubadour Figueras an Arianna Savall im Dezember 2016.</p>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Troubadourfigueras/Troubadour-Figueras-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Troubadourfigueras/Troubadour-Figueras-2.png" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-12" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75" src="assets/Harfen/Troubadourfigueras/Troubadour-Figueras-Titelbild%20(2).png" alt="">
+            </div>
+          </div>
+
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+
+
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">85 cm</p>
+
+          <p class="h4">Breite</p>
+          <p class="h5">48 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">2.5 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">Verschiedene Mechaniken möglich</p>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

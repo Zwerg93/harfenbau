@@ -12,6 +12,10 @@ import {SeminareComponent} from "./components/seminare/seminare.component";
 import {KontaktComponent} from "./components/kontakt/kontakt.component";
 import {ImpressumComponent} from "./components/impressum/impressum.component";
 import {TribellaComponent} from "./components/instrumente/details/tribella/tribella.component";
+import {LindeComponent} from "./components/instrumente/details/linde/linde.component";
+import {
+  TroubadourFiguerasComponent
+} from "./components/instrumente/details/troubadour-figueras/troubadour-figueras.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -26,6 +30,8 @@ const routes: Routes = [
   {path: 'kontakt', component: KontaktComponent},
   {path: 'impressum', component: ImpressumComponent},
   {path: 'instrumente/details/tribella', component: TribellaComponent},
+  {path: 'instrumente/details/linde', component: LindeComponent},
+  {path: 'instrumente/details/troubadour-figueras', component: TroubadourFiguerasComponent},
 
   {path:'**',pathMatch: 'full', redirectTo: 'home'}
 

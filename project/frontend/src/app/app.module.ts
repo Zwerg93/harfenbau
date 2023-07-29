@@ -24,6 +24,8 @@ import { ImpressumComponent } from './components/impressum/impressum.component';
 import { TribellaComponent } from './components/instrumente/details/tribella/tribella.component';
 import { LightboxComponent } from './lightbox/lightbox.component';
 import {MatDialogModule} from "@angular/material/dialog";
+import { LindeComponent } from './components/instrumente/details/linde/linde.component';
+import { TroubadourFiguerasComponent } from './components/instrumente/details/troubadour-figueras/troubadour-figueras.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import {MatDialogModule} from "@angular/material/dialog";
     ImpressumComponent,
     TribellaComponent,
     LightboxComponent,
+    LindeComponent,
+    TroubadourFiguerasComponent,
 
   ],
   imports: [

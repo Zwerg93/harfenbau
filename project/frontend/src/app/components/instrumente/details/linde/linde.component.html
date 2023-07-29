@@ -1,0 +1,92 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h2 white text-center">Harfe Linde</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h3">Die Harfe Linde ist in ihrer Form eine Grazie und in ihrem Klang eine Ouvertüre von FF-f “‘ spannt sich ihr Spielfeld mit einem Sonoren bis brillanten Klangbild mit einer überaus reizvollen Obertonschwingung.
+        </p>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__03-161x300.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__03-161x300.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('Linde/Harfenbau-Reschenhofer_2020__08-152x300.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__08-152x300.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__11-200x300.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__18-300x206.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6" (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-1 h-md-75" src="assets/Harfen/Linde/Harfenbau-Reschenhofer_2020__55-200x300.jpg" alt="">
+            </div>
+          </div>
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DNTYUbXX6XU" title="Harfe Linde" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">189 cm</p>
+
+          <p class="h4">Tiefe</p>
+          <p class="h5">69 cm</p>
+
+          <p class="h4">Breite</p>
+          <p class="h5">37 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">9 kg</p>
+
+          <p class="h4">Saiten</p>
+          <p class="h5">36</p>
+
+          <p class="h4">Frequenz</p>
+          <p class="h5">Von FF – f “‘</p>
+          <p class="h5">Saiten in Carbon und Darm möglich</p>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

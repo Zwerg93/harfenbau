@@ -13,9 +13,6 @@ export class TribellaComponent {
   constructor(private dialog: MatDialog) {}
 
   openLightbox(imageUrl: string): void {
-
-
-
     this.dialog.open(LightboxComponent, {
       data: imageUrl
     });
