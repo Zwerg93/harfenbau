@@ -1,0 +1,78 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Keltische Harfe</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">Diese reich verzierte Harfe birgt eine alte, lange Geschichte in sich. Die Legende besagt, dass
+          der magische Klang, tiefes Träumen sowie Lachen und Weinen bewirken kann.
+
+          Typisch für die keltische Harfe ist der glockenähnliche Klang der Broncesaiten, diese Harfe erfordern eine
+          eigene Spieltechnik . Der magische Klang dieser Harfe verführt einen in alte Welten.
+
+          Diese Harfe ist mit oder ohne Schnitzereien erhältlich.
+        </p>
+        <br><br>
+        <p class="h4">30 Broncesaiten</p>
+
+
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/kelticsh/keltisch_1.jpg" alt="">
+            </div>
+          </div>
+
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">90 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">7 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">möglich</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">Gewachst oder in Schellackpolitur (handpoliert)</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Birne oder Ahorn</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

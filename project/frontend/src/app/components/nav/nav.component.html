@@ -7,17 +7,17 @@
     <img class=" mx-5 my-5 img-fluid" src="assets/Logo1.png" alt="" srcset="">
 
     <mat-list class="mx-5 h5">
-      <p class="my-3 navitems" routerLink="home">Home</p>
-      <p class="my-3 navitems" routerLink="harfen-aus-meisterhand">Harfen aus Meisterhand</p>
-      <p class="my-3 navitems" routerLink="franz-reschenhofer">Franz Reschenhofer</p>
-      <p class="my-3 navitems" routerLink="instrumente">Instrumente</p>
-      <p class="my-3 navitems" routerLink="windharfen">Windharfen</p>
-      <p class="my-3 navitems" routerLink="galerie">Galerie</p>
-      <p class="my-3 navitems" routerLink="harfenlehrer">Harfenlehrer</p>
-      <p class="my-3 navitems" routerLink="ausstellungen">Ausstellungen</p>
-      <p class="my-3 navitems" routerLink="seminare">Seminare</p>
-      <p class="my-3 navitems" routerLink="kontakt">Kontakt</p>
-      <p class="my-3 navitems" routerLink="impressum">Impressum</p>
+      <p class="my-3 navitems"[routerLink]="['home']">Home</p>
+      <p class="my-3 navitems" [routerLink]="['harfen-aus-meisterhand']">Harfen aus Meisterhand</p>
+      <p class="my-3 navitems" [routerLink]="['franz-reschenhofer']">Franz Reschenhofer</p>
+      <p class="my-3 navitems" [routerLink]="['instrumente']">Instrumente</p>
+      <p class="my-3 navitems" [routerLink]="['instrumente/details/windharfen']">Windharfen</p>
+      <p class="my-3 navitems" [routerLink]="['galerie']">Galerie</p>
+      <p class="my-3 navitems" [routerLink]="['harfenlehrer']">Harfenlehrer</p>
+      <p class="my-3 navitems" [routerLink]="['ausstellungen']">Ausstellungen</p>
+      <p class="my-3 navitems" [routerLink]="['seminare']">Seminare</p>
+      <p class="my-3 navitems" [routerLink]="['kontakt']">Kontakt</p>
+      <p class="my-3 navitems" [routerLink]="['impressum']">Impressum</p>
     </mat-list>
   </mat-sidenav>
 

@@ -37,6 +37,11 @@ import { MerlinComponent } from './components/instrumente/details/merlin/merlin.
 import { DobleAragonesComponent } from './components/instrumente/details/doble-aragones/doble-aragones.component';
 import { AngelicaComponent } from './components/instrumente/details/angelica/angelica.component';
 import { AlgebraComponent } from './components/instrumente/details/algebra/algebra.component';
+import { Irisch28Component } from './components/instrumente/details/irisch28/irisch28.component';
+import { KeltischComponent } from './components/instrumente/details/keltisch/keltisch.component';
+import { KanteleComponent } from './components/instrumente/details/kantele/kantele.component';
+import { LyraComponent } from './components/instrumente/details/lyra/lyra.component';
+import {WindharfenComponent2} from './components/instrumente/details/windharfen/windharfen.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +73,11 @@ import { AlgebraComponent } from './components/instrumente/details/algebra/algeb
     DobleAragonesComponent,
     AngelicaComponent,
     AlgebraComponent,
+    Irisch28Component,
+    KeltischComponent,
+    KanteleComponent,
+    LyraComponent,
+    WindharfenComponent2,
 
   ],
   imports: [

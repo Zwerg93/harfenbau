@@ -1,0 +1,16 @@
+.white{
+  color:#ffffff;
+}
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1rem);
+}
+
+.modal-body {
+  text-align: center;
+}

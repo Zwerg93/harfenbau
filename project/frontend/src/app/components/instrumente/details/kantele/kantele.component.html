@@ -1,0 +1,68 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Irische Harfe 28-Saitig</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">„Die Kantele“ ist eines der einfachsten Saiteninstrumente !
+
+          Die Saiten der „KANTELE“ sind harmonisch zueinander gestimmt, dadurch entsteht ein Klangspiel ohne
+          Disharmonie. Dies bewirkt beim Spielenden einen „harmonischen, meditativen“ Zustand.
+
+          Auf diese Art ist es möglich, dem Menschen einen einfachen Zugang zu seinem eigenen musischen Spiel zu ebnen.
+        </p>
+        <br><br>
+        <p class="h4">28 saitig von H bis a“‘ (432 – 440 Hz)</p>
+
+
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Kantele/kantele-titel.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Kantele/kantele.jpg" alt="">
+            </div>
+          </div>
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+
+      </div>
+    </div>
+  </div>
+</section>

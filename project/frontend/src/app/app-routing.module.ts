@@ -26,6 +26,12 @@ import {ThrudComponent} from "./components/instrumente/details/thrud/thrud.compo
 import {MerlinComponent} from "./components/instrumente/details/merlin/merlin.component";
 import {DobleAragonesComponent} from "./components/instrumente/details/doble-aragones/doble-aragones.component";
 import {AngelicaComponent} from "./components/instrumente/details/angelica/angelica.component";
+import {AlgebraComponent} from "./components/instrumente/details/algebra/algebra.component";
+import {Irisch28Component} from "./components/instrumente/details/irisch28/irisch28.component";
+import {KeltischComponent} from "./components/instrumente/details/keltisch/keltisch.component";
+import {KanteleComponent} from "./components/instrumente/details/kantele/kantele.component";
+import {LyraComponent} from "./components/instrumente/details/lyra/lyra.component";
+import {WindharfenComponent2} from "./components/instrumente/details/windharfen/windharfen.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -52,6 +58,12 @@ const routes: Routes = [
   {path: 'instrumente/details/Merlin', component: MerlinComponent},
   {path: 'instrumente/details/larpa-doble-aragones', component: DobleAragonesComponent},
   {path: 'instrumente/details/angelica', component: AngelicaComponent},
+  {path: 'instrumente/details/algebra', component: AlgebraComponent},
+  {path: 'instrumente/details/irisch28', component: Irisch28Component},
+  {path: 'instrumente/details/keltisch', component: KeltischComponent},
+  {path: 'instrumente/details/kantele', component: KanteleComponent},
+  {path: 'instrumente/details/lyra', component: LyraComponent},
+  {path: 'instrumente/details/windharfen', component: WindharfenComponent2},
 
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 
