@@ -1,0 +1,123 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Harfe Tara</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">Durch den voluminösen, runden Resonanzkörper entwickelt die “ Tara-Harfe “ ihren warmen, kräftigen
+          und klaren Klang.
+
+          Mit keltischen Schnitzereien und Vergoldungen wird diese Harfe zur königlichen Schönheit.
+
+          Auch die einfache Ausführung bezaubert durch ihre Formschönheit.</p>
+
+        <br> <br>
+        <p class="h4">36 saitig von C bis c 4 (440 Hz)</p>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_quer.jpg" alt="">
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_01.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_02.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_03.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_04.jpg.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_05.jpg.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Tara/tara_06.jpg.jpg" alt="">
+            </div>
+          </div>
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">160 cm</p>
+
+          <p class="h4">Breite</p>
+          <p class="h5">45 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">3.5 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">verschiedene Mechaniken möglich</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">C 37 Speziallack für historische Harfen</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Fichte, Ahorn </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

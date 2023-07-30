@@ -1,0 +1,135 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Die gotische Harfe – 25- Saitig</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">In der Gotik war diese Harfe ein beliebtes Instrument, was viele ikonische Darstellungen belegen.
+          Der schlanke Korpus ist aus einem Block geschaffen, der einen sehr feinen, lautenähnlichen Ton erklingen lässt
+          – für diese Zeit typisch. Durch das Einlegen der Schnarrstifte erzeugt man einen markant zeichnenden Klang.
+          Für Renaissance – Ensembles lässt sich diese Harfe gut einsetzen.</p>
+
+        <br>
+        <br>
+        <p class="h3">19 – 25 saitig von G – c 3 oder h – f 3 (415 – 440 Hz)
+        </p>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/die-gotische-harfe-titel-1.png" alt="">
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/arainna_10.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/arainna_11.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/arainna_12.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/arainna_13.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/die-gotische-harfe-–-25-saitig_1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch25/titelbild-25-saitig-gotische.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75 h-100"
+                   src="assets/Harfen/Gotisch25/die-gotische-harfe-–-25-saitig_2.png" alt="">
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">90 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">2.5 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">Auch mit Halbtonmechanik möglich</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">gewachst oder in Schellackpolitur (handpoliert)</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Fichte, Ahorn, Birne (auch in Schwarz ) Esche, Nuß</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

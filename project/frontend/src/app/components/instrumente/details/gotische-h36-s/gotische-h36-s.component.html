@@ -1,0 +1,94 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Die gotische Harfe – 36- Saitig</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">Diese formschöne sehr leichte Harfe ( 4,7 kg ) überzeugt durch ihr klares homogenes Klangbild. Sie
+          ist ein weiterentwickelter Nachbau. Das Orginal ist im Besitz des Salzburger Museums Carolino Augusteum. Sie
+          stammt aus dem 17.Jh. und wurde von mir 1997 restauriert. Auch bei dieser Harfe ist die Decke aus einem Holz
+          von feinst gewachsener Bergfichte gearbeitet. Am Kopf der Säule ist eine Volute in Form von Blättern
+          geschnitzt und mit einer Branntweinvergoldung verziert. Sie ist natürlich auch einfach oder mit einer anderen
+          Ausarbeitung erhältlich.
+
+          Hinweis zur Restauration: <a [routerLink]="['../../../harfen-aus-meisterhand']"> unter Historische Instrumente
+            (Restauration)</a></p>
+
+        <br>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch36/die-gotische-harfe-–-36-saitig_titelbild.png" alt="">
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch36/die-gotische-harfe-–-36-saitig_2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/Gotisch36/die-gotische-harfe-–-36-saitig_3.jpg" alt="">
+            </div>
+          </div>
+
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">126 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">4.5 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">Halbtonmechanik</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">Schelllack oder Wachs</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Bergfichte, Ahorn, Nuss, Birne</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

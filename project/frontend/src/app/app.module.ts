@@ -26,6 +26,17 @@ import { LightboxComponent } from './lightbox/lightbox.component';
 import {MatDialogModule} from "@angular/material/dialog";
 import { LindeComponent } from './components/instrumente/details/linde/linde.component';
 import { TroubadourFiguerasComponent } from './components/instrumente/details/troubadour-figueras/troubadour-figueras.component';
+import { AriannaComponent } from './components/instrumente/details/arianna/arianna.component';
+import { GotischeH25SComponent } from './components/instrumente/details/gotische-h25-s/gotische-h25-s.component';
+import { GotischeH30SComponent } from './components/instrumente/details/gotische-h30-s/gotische-h30-s.component';
+import { GotischeH36SComponent } from './components/instrumente/details/gotische-h36-s/gotische-h36-s.component';
+import { MechteldComponent } from './components/instrumente/details/mechteld/mechteld.component';
+import { TaraComponent } from './components/instrumente/details/tara/tara.component';
+import { ThrudComponent } from './components/instrumente/details/thrud/thrud.component';
+import { MerlinComponent } from './components/instrumente/details/merlin/merlin.component';
+import { DobleAragonesComponent } from './components/instrumente/details/doble-aragones/doble-aragones.component';
+import { AngelicaComponent } from './components/instrumente/details/angelica/angelica.component';
+import { AlgebraComponent } from './components/instrumente/details/algebra/algebra.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +57,17 @@ import { TroubadourFiguerasComponent } from './components/instrumente/details/tr
     LightboxComponent,
     LindeComponent,
     TroubadourFiguerasComponent,
+    AriannaComponent,
+    GotischeH25SComponent,
+    GotischeH30SComponent,
+    GotischeH36SComponent,
+    MechteldComponent,
+    TaraComponent,
+    ThrudComponent,
+    MerlinComponent,
+    DobleAragonesComponent,
+    AngelicaComponent,
+    AlgebraComponent,
 
   ],
   imports: [

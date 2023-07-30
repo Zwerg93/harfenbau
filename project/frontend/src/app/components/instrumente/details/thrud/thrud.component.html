@@ -1,0 +1,104 @@
+<style>
+  .sticky-list {
+    position: sticky;
+    top: 20px; /* Einstellen des gewünschten Abstands nach oben */
+  }
+</style>
+
+<section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="container">
+    <p class="h1 white text-center">Harfe Thrud</p>
+  </div>
+</section>
+
+<div class="py-5"></div>
+
+<section *ngIf="showDialog" class="content">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="h4">Die Harfe „Thrud“ besticht in ihrer Einfachheit und ihrem warmen Timbre, sowie durch ihren
+          kräftigen Ton. Der Korpus wird massiv in konischer Kastenbauweise hergestellt.Die Resonanzdecke ist aus gut
+          abgelagertem Fichtenholz (auf Bestellung auch Haselfichte) aus den österreichischen Alpen über 1200m.
+
+          Der Hals besteht aus massivem Hartholz mit Schichtaufleimungen, dadurch wird hohe Stabilität erreicht.
+
+          Sie ist in den Bässen von BB – C mit Seidenkern metallumsponnenen Saiten bespannt und von d-f in Darm, Carbon
+          oder Nylonsaiten erhältlich.</p>
+
+        <br> <br>
+        <p class="h4">33 saitig von BB bis f 4 (432 – 440 Hz)</p>
+        <br><br>
+
+        <!-- app.component.html -->
+        <div class="row">
+
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/thrud/thrud-titel-neu.jpg" alt="">
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/thrud/thrud_2.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/thrud/thrud_3.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-12"
+               (click)="openLightbox('assets/Harfen/Tribella/GHG_7795-1-e1643396109508.jpg')">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid py-4 h-md-75"
+                   src="assets/Harfen/thrud/thrud_1_quer.jpg" alt="">
+            </div>
+          </div>
+
+
+          <!-- Add more images here if needed -->
+        </div>
+        <br><br><br>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="sticky-list">
+          <p class="h4">Höhe</p>
+          <p class="h5">100 cm</p>
+
+          <p class="h4">Breite</p>
+          <p class="h5">45 cm</p>
+
+          <p class="h4">Gewicht</p>
+          <p class="h5">7 kg</p>
+
+          <p class="h4">Halbtonmechanik</p>
+          <p class="h5">verschiedene Halbtonmechaniken möglich</p>
+
+          <p class="h4">Oberfläche</p>
+          <p class="h5">Natur, gewachst oder in Schellackpolitur</p>
+
+          <p class="h4">Holz</p>
+          <p class="h5">Nussbaum, Birne, Ahorn oder Kirsche</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
