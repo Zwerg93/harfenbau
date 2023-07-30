@@ -1,6 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - npm install
+
+    - ng build --prod
+
+    #- mkdir -p ~/public_html/dev
+
+    - cp -r  project/frontend/dist/* ~/public_html/dev
