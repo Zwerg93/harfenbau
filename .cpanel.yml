@@ -1,6 +1,14 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html/dev
-    - cp project/frontend/dist/* $DEPLOYPATH
-    
+    # Installiere die erforderlichen Abhängigkeiten (Node.js und npm)
+    - npm install
+
+    # Baue das Angular-Projekt
+    - ng build --prod
+
+    # Erstelle ein Verzeichnis für die Veröffentlichung (falls nicht bereits vorhanden)
+    #- mkdir -p ~/public_html/dev
+
+    # Kopiere die Dateien aus dem dist-Verzeichnis in das Veröffentlichungsverzeichnis
+    - cp -r  project/frontend/dist/* ~/public_html/dev
